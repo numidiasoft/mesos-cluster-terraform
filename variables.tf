@@ -24,7 +24,7 @@ variable "public_cidr_blocks" {
 
 variable "private_cidr_blocks" {
   default = {
-    "0" = "10.0.10/24"
+    "0" = "10.0.10.0/24"
     "1" = "10.0.11.0/24"
     "2" = "10.0.12.0/24"
   }
